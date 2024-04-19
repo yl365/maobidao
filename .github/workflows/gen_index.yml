@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate HTML index
         run: |
-          # 开始生成列表
+          # 开始生成列表2
           # 添加无需转义的 HTML 代码段
           htmlhead='<!DOCTYPE html><html>  <head>    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	<meta name="viewport" content="width=device-width, initial-scale=1.0" />    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">	<link rel="manifest" href="/site.webmanifest">    <title>猫笔刀历史文章合集</title>	<script>		var _hmt = _hmt || [];		(function() {		var hm = document.createElement("script");		hm.src = "https://hm.baidu.com/hm.js?2ce78cdc63eac5c2b834e88b66929dcd";		var s = document.getElementsByTagName("script")[0]; 		s.parentNode.insertBefore(hm, s);		})();	</script>  </head>  <body>  <div style="clear:both;">  <img src="/qr100.jpg" alt="加微信一起聊🙂" style="float:right;margin-right:10px;">  </div><h1 style="font-size:24px;">猫笔刀历史文章合集</h1><br />(我是一个码农，平时喜欢喝茶炒股，欢迎一起学习交流： QQ316716198 [微信同号] )<br /><hr />'
   
